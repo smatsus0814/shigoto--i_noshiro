@@ -252,7 +252,8 @@ html, body {
 }
 
 .fv {
-  background-image: url("../image/suda.png");
+  background:#ddd url(../image/header.jpg) no-repeat center center;
+  background-size:cover;
 }
 .fv__container {
   width: 1024px;
@@ -356,7 +357,7 @@ p.fv__desc{
 
 }
 .about__desc {
-  width: 600px;
+  width: 80%;
   margin: 0 auto 80px;
   text-align: center;
   line-height: 1.7;
@@ -443,7 +444,7 @@ p.fv__desc{
 }
 
 .price__desc {
-  width: 600px;
+  width: 80%;
   margin: 0 auto 80px;
   text-align: center;
   line-height: 1.7;
@@ -537,7 +538,7 @@ li.price__item {
   background: #f3f3f3;
 }
 .recruit__desc {
-  width: 800px;
+  width: 80%;
   margin: 0 auto;
   line-height: 1.7;
   text-align: center;
