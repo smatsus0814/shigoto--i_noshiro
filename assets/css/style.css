@@ -159,7 +159,7 @@ html, body {
 
 .header {
   width: 100%;
-  height: 70px;
+  height: 0.75%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -270,7 +270,7 @@ h2.fv__ttl {
 }
 
 .fv__ttl p{
-  background-color: #ff9;
+  background: linear-gradient(transparent 60%, #8b4513 60%);
   margin-bottom: 5px;
 }
 
@@ -278,7 +278,9 @@ p.fv__desc{
   background-color: #fff;
 }
 
-
+h2 > p {
+  margin-bottom: 1%;
+}
 
 @media only screen and (max-width: 1024px) {
   .fv__container {
@@ -294,7 +296,7 @@ p.fv__desc{
   font-size: 60px;
   letter-spacing: 2px;
   margin: 0 0 32px;
-  color: #356763;
+  color: #fff;
 }
 @media only screen and (max-width: 1024px) {
   .fv__ttl {
@@ -325,7 +327,7 @@ p.fv__desc{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #000066;
+  background: #c80b4c;
   color: #fff;
   text-decoration: none;
   width: 300px;
@@ -334,9 +336,9 @@ p.fv__desc{
   font-size: 24px;
   font-weight: bold;
   letter-spacing: 1px;
-  box-shadow: 0 5px #000066;
+  box-shadow: 0 5px #c80b4c;
   transition: all 0.5s ease 0s;
-  border: 2px solid #000066;
+  border: 2px solid #c80b4c;
 }
 .fv__cv:hover {
   box-shadow: none;
@@ -483,9 +485,9 @@ li.price__item {
 .price__plan {
   font-size: 28px;
   margin: 0 0 20px;
-  color: #000066;
+  color: #c80b4c;
   padding: 6px 0 6px 10px;
-  border-left: 6px solid #6495ED;
+  border-left: 6px solid #8b4513;
 }
 .price__table {
   width: 100%;
@@ -500,9 +502,9 @@ li.price__item {
 .price__name {
   width: 25%;
   padding: 12px;
-  border: 1px solid #000066;
+  border: 1px solid #592C0C;
   border-bottom: none;
-  background: #6495ED;
+  background: #8b4513;
   text-align: center;
   color: #fff;
   vertical-align: middle;
@@ -519,7 +521,7 @@ li.price__item {
 .price__data {
   width: 75%;
   padding: 12px;
-  border: 1px solid #000066;
+  border: 1px solid #8b4513;
   border-left: none;
   border-bottom: none;
   line-height: 1.7;
@@ -557,7 +559,7 @@ li.price__item {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #000066;
+  background: #c80b4c;
   color: #fff;
   text-decoration: none;
   width: 300px;
@@ -566,9 +568,9 @@ li.price__item {
   font-size: 24px;
   font-weight: bold;
   letter-spacing: 1px;
-  box-shadow: 0 5px #000066;
+  box-shadow: 0 5px #c80b4c;
   transition: all 0.5s ease 0s;
-  border: 2px solid #000066;
+  border: 2px solid #c80b4c;
   margin: 60px auto;
 }
 .recruit__more:hover {
