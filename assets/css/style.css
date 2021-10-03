@@ -166,6 +166,7 @@ html, body {
   margin: 0 auto;
   background: #c80b4c;
   color: #fff;
+  padding: 0.8%;
 }
 @media only screen and (max-width: 767px) {
   .header {
@@ -281,6 +282,15 @@ p.fv__desc{
 h2 > p {
   margin-bottom: 1%;
 }
+
+.under_price_image{
+  width: 50%;
+  align-items: center;
+  display: block;
+  margin: auto;
+  margin-bottom: 55px;
+}
+
 
 @media only screen and (max-width: 1024px) {
   .fv__container {
@@ -447,7 +457,7 @@ h2 > p {
 
 .price__desc {
   width: 80%;
-  margin: 0 auto 80px;
+  margin: 0 auto 55px;
   text-align: center;
   line-height: 1.7;
 }
