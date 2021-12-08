@@ -723,4 +723,33 @@ li.price__item {
   .footer {
     font-size: 12px;
   }
-}  
+}
+
+@media only screen and (max-width: 767px) {
+  .pc_contents{
+    display: none;
+  }
+  .sp_contents{
+    display: block;
+  }
+
+  .sp_contents td{
+    min-width: 190px;
+  }
+
+  .sp_contents th{
+    min-width: 100px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+  .pc_contents{
+    display: block;
+  }
+  .sp_contents{
+    display: none;
+  }
+  
+ 
+}
