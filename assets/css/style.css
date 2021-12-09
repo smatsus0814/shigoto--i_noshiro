@@ -753,3 +753,8 @@ li.price__item {
   
  
 }
+
+.president_message {
+  text-align: left;
+  font-size: 13px;
+}
